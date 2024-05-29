@@ -26,15 +26,44 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color:  rgb(255, 208, 0) ;
 }
 
 .container .product-image img{
     width: 70%;
+    margin: 50px 0;
 }
 
 .container .product-image aside{
     align-self: flex-end;
     color: white;
+    margin: 10px;
 }
 
+.product-info{
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+p{
+    color: rgba(0,0,0,.7);;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 30px 0 0 auto ;
+}
