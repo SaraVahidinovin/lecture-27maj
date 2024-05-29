@@ -47,9 +47,10 @@ body {
 
 .product-info{
     flex: 1;
-    margin: 10px 25px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     
 }
 
